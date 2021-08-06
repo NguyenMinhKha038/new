@@ -1,0 +1,10 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.codosa.myvietnam",
+      "sha256_cert_fingerprints":
+      ["5E:8A:6F:21:68:46:F5:95:B9:C7:95:51:53:A5:4C:86:D8:3A:16:DC:14:A9:83:51:96:AF:12:88:DF:34:97:B1",
+      "79:85:92:FC:D9:28:11:D8:D4:BF:73:22:88:44:DD:30:78:AB:61:0C:A4:6A:7C:85:18:93:FD:52:61:24:D2:6E"]
+    }
+  }]

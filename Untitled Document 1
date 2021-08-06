@@ -1,0 +1,30 @@
+
+những promotion đang ở trạng thái handing vẫn có thể tạo trùng nhau, 1 sản phẩm có 2 promotion
+Nhưng khi promotion ở trạng thái active thì 1 sản phẩm không thể nằm trong 2 promotion
+khi promotion đã active thì k thể update
+_Trong database có 1 vài document trong products có lưu model_list. Nhưng trong model thì products chỉ lưu product_id,total,unlimuted? 
+
+
+promotionJob:
+startCheckPromotion tìm promotion sắp hết hạn 10p sau(trong thời gian từ thời điểm check đến 10p sau), sau đó tìm tiếp các promotion sắp bắt đầu sau 10p nữa. Hẹn thời gian sau khi bắt đầu hoặc kết thúc sau 1 giây thì sẽ update thông tin promotion đó
+
+Tìm các productStoring dưới cửa hàng của cty và tìm promotion của cty. Sau đó cứ mỗi productStoring thì tìm cái promotion tương ứng
+
+
+update company_limit:
+1:update các sản phẩm dưới của hàng:
+	1.1 Tìm các sản phẩm dưới cửa hàng của cty, tìm các promotion chưa hết hạn của cty
+	1.2 Cứ mỗi 1 sản phẩm thì tiến hành tìm promotion của sản phẩm đó ở cửa hàng.
+	1.3 Từ 1 sản phẩm và promotion của sản phẩm đó, tiến hành update các thông tin của 	product storing đó dựa trên 1 số thông tin của promotion()
+*phần 2,3 bỏ
+2. update các sản phẩm:
+	2.1 Tìm các sản phẩm của cty
+	2.2 Cứ mỗi 1 sản phẩm của cty sẽ tìm ra sản phẩm ở của hàng có refund và 	
+	discount lớn nhất 
+	2.3 update các thông số của sản phẩm có discount và refun lớn nhất vào thông tin của sản phẩm cty
+3. update thông tin cửa hàng:
+	3.1 Tìm các cửa hàng của cty, cứ mỗi cửa hàng sẽ tìm các sản phẩm có refun và 		discount lớn nhất và update các thông tin như max_refund, max_discount của cửa hàng 	bằng các thông tin của productStorig có refun và discount lớn nhất đó.
+4. Cảnh báo mức refund khi walet không đủ chi trả cho promotion cty
+	4.1 Tim các refund và discount có giá trị lớn nhật trong các promotion của cty.
+	4.2 Nếu wallet nhỏ hơn mức refund cao nhất của promotin cty(k đủ hoàn tiền cho 1 sản 	phẩm) thì thông báo tạm dừng cty
+	4.3 Thông báo nếu wallet không đủ chi trả cho từ 6 sản phẩm có giá trị cao nhất 

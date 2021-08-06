@@ -1,0 +1,161 @@
+[
+  {
+    "path_list": [
+      "/s_/product/company",
+      "/s_/store/company",
+      "/s_/setting/company",
+      "/s_/notification/company"
+    ],
+    "method": "GET",
+    "type": "typist"
+  },
+  {
+    "path_list": ["/s_/product/company", "/s_/notification/company"],
+    "method": "POST",
+    "type": "typist"
+  },
+  {
+    "path_list": ["/s_/product/company"],
+    "method": "PUT",
+    "type": "typist"
+  },
+  {
+    "path_list": ["/s_/product/company"],
+    "method": "DELETE",
+    "type": "typist"
+  },
+  {
+    "path_list": [
+      "/s_/order/company",
+      "/s_/order-caching/company",
+      "/s_/product-storing/company",
+      "/s_/store/company",
+      "/s_/setting/company",
+      "/s_/notification/company",
+      "/s_/promotion/owner"
+    ],
+    "method": "GET",
+    "type": "seller"
+  },
+  {
+    "path_list": ["/s_/order/company", "/s_/order-caching/company", "/s_/notification/company"],
+    "method": "POST",
+    "type": "seller"
+  },
+  {
+    "path_list": ["/s_/order/company", "/s_/order-caching/company"],
+    "method": "PUT",
+    "type": "seller"
+  },
+  {
+    "path_list": ["/s_/order/company", "/s_/order-caching/company"],
+    "method": "DELETE",
+    "type": "seller"
+  },
+  {
+    "path_list": [
+      "/s_/revenue/company",
+      "/s_/order/company",
+      "/s_/order-caching/company",
+      "/s_/product-storing/company",
+      "/s_/store/company",
+      "/s_/setting/company",
+      "/s_/notification/company",
+      "/s_/deposit-withdraw/user"
+    ],
+    "method": "GET",
+    "type": "cashier"
+  },
+  {
+    "path_list": ["/s_/order/company", "/s_/order-caching/company", "/s_/notification/company"],
+    "method": "POST",
+    "type": "cashier"
+  },
+  {
+    "path_list": ["/s_/order/company", "/s_/order-caching/company"],
+    "method": "PUT",
+    "type": "cashier"
+  },
+  {
+    "path_list": ["/s_/order/company", "/s_/order-caching/company"],
+    "method": "DELETE",
+    "type": "cashier"
+  },
+  {
+    "path_list": [
+      "/s_/product-stock-history/company",
+      "/s_/goods-batch/company",
+      "/s_/warehouse/company",
+      "/s_/warehouse-storing/company"
+    ],
+    "method": "GET",
+    "type": "company_stock"
+  },
+  {
+    "path_list": ["/s_/stock/company", "/s_/goods-batch/company"],
+    "method": "POST",
+    "type": "company_stock"
+  },
+  {
+    "path_list": ["/s_/warehouse-storing/company", "/s_/goods-batch/company"],
+    "method": "PUT",
+    "type": "company_stock"
+  },
+  {
+    "path_list": [
+      "/s_/product-stock-history/company",
+      "/s_/goods-batch/company",
+      "/s_/warehouse/company",
+      "/s_/warehouse-storing/company"
+    ],
+    "method": "GET",
+    "type": "warehouse_stock"
+  },
+  {
+    "path_list": ["/s_/stock/company", "/s_/goods-batch/company"],
+    "method": "POST",
+    "type": "warehouse_stock"
+  },
+  {
+    "path_list": ["/s_/warehouse-storing/company", "/s_/goods-batch/company"],
+    "method": "PUT",
+    "type": "warehouse_stock"
+  },
+
+  {
+    "path_list": ["/s_/product-stock-history/company", "/s_/goods-batch/company"],
+    "method": "GET",
+    "type": "store_stock"
+  },
+  {
+    "path_list": ["/s_/product-storing/company", "/s_/stock/company", "/s_/goods-batch/company"],
+    "method": "POST",
+    "type": "store_stock"
+  },
+  {
+    "path_list": ["/s_/product-storing/company", "/s_/goods-batch/company"],
+    "method": "PUT",
+    "type": "store_stock"
+  },
+
+  {
+    "path_list": [
+      "/s_/product/company",
+      "/s_/store/company",
+      "/s_/setting/company",
+      "/s_/notification/company",
+      "/s_/order/company",
+      "/s_/product-storing/company",
+      "/s_/promotion/owner",
+      "/s_/revenue/company",
+      "/s_/product-stock-history/company"
+    ],
+    "method": "GET",
+    "type": "store_manager"
+  },
+  {
+    "path_list": ["/s_/product-storing/company"],
+    "method": "POST",
+    "type": "store_manager"
+  }
+]

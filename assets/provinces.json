@@ -1,0 +1,506 @@
+[
+  {
+    "name": "Hồ Chí Minh",
+    "slug": "ho-chi-minh",
+    "type": 1,
+    "name_with_type": "Thành phố Hồ Chí Minh",
+    "code": "79",
+    "post_office_location": [10.7798579, 106.6999075]
+  },
+  {
+    "name": "Hà Nội",
+    "slug": "ha-noi",
+    "type": 1,
+    "name_with_type": "Thành phố Hà Nội",
+    "code": "01",
+    "post_office_location": [21.0270168, 105.8515622]
+  },
+  {
+    "name": "Đà Nẵng",
+    "slug": "da-nang",
+    "type": 1,
+    "name_with_type": "Thành phố Đà Nẵng",
+    "code": "48",
+    "post_office_location": [16.049395, 108.1898838]
+  },
+  {
+    "name": "Cần Thơ",
+    "slug": "can-tho",
+    "type": 1,
+    "name_with_type": "Thành phố Cần Thơ",
+    "code": "92",
+    "post_office_location": [10.0358468, 105.7844691]
+  },
+  {
+    "name": "Hải Phòng",
+    "slug": "hai-phong",
+    "type": 1,
+    "name_with_type": "Thành phố Hải Phòng",
+    "code": "31",
+    "post_office_location": [20.8639493, 106.6793745]
+  },
+  {
+    "name": "An Giang",
+    "slug": "an-giang",
+    "type": 1,
+    "name_with_type": "Tỉnh An Giang",
+    "code": "89",
+    "post_office_location": [10.3895044, 105.4340901]
+  },
+  {
+    "name": "Bà Rịa - Vũng Tàu",
+    "slug": "ba-ria-vung-tau",
+    "type": 1,
+    "name_with_type": "Tỉnh Bà Rịa - Vũng Tàu",
+    "code": "77",
+    "post_office_location": [10.4979921, 107.1658051]
+  },
+  {
+    "name": "Bình Dương",
+    "slug": "binh-duong",
+    "type": 1,
+    "name_with_type": "Tỉnh Bình Dương",
+    "code": "74",
+    "post_office_location": [10.9817814, 106.6621333]
+  },
+  {
+    "name": "Bình Phước",
+    "slug": "binh-phuoc",
+    "type": 1,
+    "name_with_type": "Tỉnh Bình Phước",
+    "code": "70",
+    "post_office_location": [11.5376993, 106.8983681]
+  },
+  {
+    "name": "Bình Thuận",
+    "slug": "binh-thuan",
+    "type": 1,
+    "name_with_type": "Tỉnh Bình Thuận",
+    "code": "60",
+    "post_office_location": [11.6346705, 108.4881172]
+  },
+  {
+    "name": "Bình Định",
+    "slug": "binh-dinh",
+    "type": 1,
+    "name_with_type": "Tỉnh Bình Định",
+    "code": "52",
+    "post_office_location": [13.7684137, 109.2320582]
+  },
+  {
+    "name": "Bạc Liêu",
+    "slug": "bac-lieu",
+    "type": 1,
+    "name_with_type": "Tỉnh Bạc Liêu",
+    "code": "95",
+    "post_office_location": [9.2864991, 105.7212116]
+  },
+  {
+    "name": "Bắc Giang",
+    "slug": "bac-giang",
+    "type": 1,
+    "name_with_type": "Tỉnh Bắc Giang",
+    "code": "24",
+    "post_office_location": [21.2755186, 106.1997887]
+  },
+  {
+    "name": "Bắc Kạn",
+    "slug": "bac-kan",
+    "type": 1,
+    "name_with_type": "Tỉnh Bắc Kạn",
+    "code": "06",
+    "post_office_location": [22.1483781, 105.8336338]
+  },
+  {
+    "name": "Bắc Ninh",
+    "slug": "bac-ninh",
+    "type": 1,
+    "name_with_type": "Tỉnh Bắc Ninh",
+    "code": "27",
+    "post_office_location": [21.180162, 106.0700097]
+  },
+  {
+    "name": "Bến Tre",
+    "slug": "ben-tre",
+    "type": 1,
+    "name_with_type": "Tỉnh Bến Tre",
+    "code": "83",
+    "post_office_location": [10.2358306, 106.3738855]
+  },
+  {
+    "name": "Cao Bằng",
+    "slug": "cao-bang",
+    "type": 1,
+    "name_with_type": "Tỉnh Cao Bằng",
+    "code": "04",
+    "post_office_location": [22.6734498, 106.2554374]
+  },
+  {
+    "name": "Điện Biên",
+    "slug": "dien-bien",
+    "type": 1,
+    "name_with_type": "Tỉnh Điện Biên",
+    "code": "11",
+    "post_office_location": [21.3966204, 103.0010176]
+  },
+  {
+    "name": "Đắk Lắk",
+    "slug": "dak-lak",
+    "type": 1,
+    "name_with_type": "Tỉnh Đắk Lắk",
+    "code": "66",
+    "post_office_location": [12.6922321, 108.0560785]
+  },
+  {
+    "name": "Đắk Nông",
+    "slug": "dak-nong",
+    "type": 1,
+    "name_with_type": "Tỉnh Đắk Nông",
+    "code": "67",
+    "post_office_location": [12.0039731, 107.6816743]
+  },
+  {
+    "name": "Đồng Nai",
+    "slug": "dong-nai",
+    "type": 1,
+    "name_with_type": "Tỉnh Đồng Nai",
+    "code": "75",
+    "post_office_location": [10.9689747, 106.8873341]
+  },
+  {
+    "name": "Đồng Tháp",
+    "slug": "dong-thap",
+    "type": 1,
+    "name_with_type": "Tỉnh Đồng Tháp",
+    "code": "87",
+    "post_office_location": [10.4567532, 105.6341289]
+  },
+  {
+    "name": "Cà Mau",
+    "slug": "ca-mau",
+    "type": 1,
+    "name_with_type": "Tỉnh Cà Mau",
+    "code": "96",
+    "post_office_location": [9.1770879, 105.1480074]
+  },
+  {
+    "name": "Gia Lai",
+    "slug": "gia-lai",
+    "type": 1,
+    "name_with_type": "Tỉnh Gia Lai",
+    "code": "64",
+    "post_office_location": [13.977286, 107.9993213]
+  },
+  {
+    "name": "Hoà Bình",
+    "slug": "hoa-binh",
+    "type": 1,
+    "name_with_type": "Tỉnh Hoà Bình",
+    "code": "17",
+    "post_office_location": [20.8164966, 105.3403862]
+  },
+  {
+    "name": "Hà Giang",
+    "slug": "ha-giang",
+    "type": 1,
+    "name_with_type": "Tỉnh Hà Giang",
+    "code": "02",
+    "post_office_location": [22.8285524, 104.9816635]
+  },
+  {
+    "name": "Hà Nam",
+    "slug": "ha-nam",
+    "type": 1,
+    "name_with_type": "Tỉnh Hà Nam",
+    "code": "35",
+    "post_office_location": [20.5430175, 105.9102056]
+  },
+  {
+    "name": "Hà Tĩnh",
+    "slug": "ha-tinh",
+    "type": 1,
+    "name_with_type": "Tỉnh Hà Tĩnh",
+    "code": "42",
+    "post_office_location": [18.3396052, 105.8928427]
+  },
+  {
+    "name": "Hưng Yên",
+    "slug": "hung-yen",
+    "type": 1,
+    "name_with_type": "Tỉnh Hưng Yên",
+    "code": "33",
+    "post_office_location": [20.6551808, 106.0547241]
+  },
+  {
+    "name": "Hải Dương",
+    "slug": "hai-duong",
+    "type": 1,
+    "name_with_type": "Tỉnh Hải Dương",
+    "code": "30",
+    "post_office_location": [20.9399778, 106.3282263]
+  },
+  {
+    "name": "Hậu Giang",
+    "slug": "hau-giang",
+    "type": 1,
+    "name_with_type": "Tỉnh Hậu Giang",
+    "code": "93",
+    "post_office_location": [9.7817821, 105.4744811]
+  },
+  {
+    "name": "Khánh Hòa",
+    "slug": "khanh-hoa",
+    "type": 1,
+    "name_with_type": "Tỉnh Khánh Hòa",
+    "code": "56",
+    "post_office_location": [12.2539534, 109.1942712]
+  },
+  {
+    "name": "Kiên Giang",
+    "slug": "kien-giang",
+    "type": 1,
+    "name_with_type": "Tỉnh Kiên Giang",
+    "code": "91",
+    "post_office_location": [9.984405, 105.1000492]
+  },
+  {
+    "name": "Kon Tum",
+    "slug": "kon-tum",
+    "type": 1,
+    "name_with_type": "Tỉnh Kon Tum",
+    "code": "62",
+    "post_office_location": [14.3540365, 108.0006631]
+  },
+  {
+    "name": "Lai Châu",
+    "slug": "lai-chau",
+    "type": 1,
+    "name_with_type": "Tỉnh Lai Châu",
+    "code": "12",
+    "post_office_location": [22.4010315, 103.45149]
+  },
+  {
+    "name": "Long An",
+    "slug": "long-an",
+    "type": 1,
+    "name_with_type": "Tỉnh Long An",
+    "code": "80",
+    "post_office_location": [10.5394684, 106.4118521]
+  },
+  {
+    "name": "Lào Cai",
+    "slug": "lao-cai",
+    "type": 1,
+    "name_with_type": "Tỉnh Lào Cai",
+    "code": "10",
+    "post_office_location": [22.3250289, 104.1808333]
+  },
+  {
+    "name": "Lâm Đồng",
+    "slug": "lam-dong",
+    "type": 1,
+    "name_with_type": "Tỉnh Lâm Đồng",
+    "code": "68",
+    "post_office_location": [11.9476367, 108.457686]
+  },
+  {
+    "name": "Lạng Sơn",
+    "slug": "lang-son",
+    "type": 1,
+    "name_with_type": "Tỉnh Lạng Sơn",
+    "code": "20",
+    "post_office_location": [21.8528988, 106.7572426]
+  },
+  {
+    "name": "Nam Định",
+    "slug": "nam-dinh",
+    "type": 1,
+    "name_with_type": "Tỉnh Nam Định",
+    "code": "36",
+    "post_office_location": [20.4246466, 106.1717328]
+  },
+  {
+    "name": "Nghệ An",
+    "slug": "nghe-an",
+    "type": 1,
+    "name_with_type": "Tỉnh Nghệ An",
+    "code": "40",
+    "post_office_location": [18.6706041, 105.682003]
+  },
+  {
+    "name": "Ninh Bình",
+    "slug": "ninh-binh",
+    "type": 1,
+    "name_with_type": "Tỉnh Ninh Bình",
+    "code": "37",
+    "post_office_location": [20.2515229, 105.9719216]
+  },
+  {
+    "name": "Ninh Thuận",
+    "slug": "ninh-thuan",
+    "type": 1,
+    "name_with_type": "Tỉnh Ninh Thuận",
+    "code": "58",
+    "post_office_location": [11.5749824, 108.9897605]
+  },
+  {
+    "name": "Phú Thọ",
+    "slug": "phu-tho",
+    "type": 1,
+    "name_with_type": "Tỉnh Phú Thọ",
+    "code": "25",
+    "post_office_location": [21.3126938, 105.394929]
+  },
+  {
+    "name": "Phú Yên",
+    "slug": "phu-yen",
+    "type": 1,
+    "name_with_type": "Tỉnh Phú Yên",
+    "code": "54",
+    "post_office_location": [13.0869334, 109.3049717]
+  },
+  {
+    "name": "Quảng Bình",
+    "slug": "quang-binh",
+    "type": 1,
+    "name_with_type": "Tỉnh Quảng Bình",
+    "code": "44",
+    "post_office_location": [17.4711004, 106.619128]
+  },
+  {
+    "name": "Quảng Nam",
+    "slug": "quang-nam",
+    "type": 1,
+    "name_with_type": "Tỉnh Quảng Nam",
+    "code": "49",
+    "post_office_location": [15.5588398, 108.4965978]
+  },
+  {
+    "name": "Quảng Ngãi",
+    "slug": "quang-ngai",
+    "type": 1,
+    "name_with_type": "Tỉnh Quảng Ngãi",
+    "code": "51",
+    "post_office_location": [15.1225058, 108.7995842]
+  },
+  {
+    "name": "Quảng Ninh",
+    "slug": "quang-ninh",
+    "type": 1,
+    "name_with_type": "Tỉnh Quảng Ninh",
+    "code": "22",
+    "post_office_location": [20.9519823, 107.0834439]
+  },
+  {
+    "name": "Quảng Trị",
+    "slug": "quang-tri",
+    "type": 1,
+    "name_with_type": "Tỉnh Quảng Trị",
+    "code": "45",
+    "post_office_location": [16.8154523, 107.1080465]
+  },
+  {
+    "name": "Sóc Trăng",
+    "slug": "soc-trang",
+    "type": 1,
+    "name_with_type": "Tỉnh Sóc Trăng",
+    "code": "94",
+    "post_office_location": [9.770172, 105.9819045]
+  },
+  {
+    "name": "Sơn La",
+    "slug": "son-la",
+    "type": 1,
+    "name_with_type": "Tỉnh Sơn La",
+    "code": "14",
+    "post_office_location": [21.3318699, 103.9066208]
+  },
+  {
+    "name": "Thanh Hóa",
+    "slug": "thanh-hoa",
+    "type": 1,
+    "name_with_type": "Tỉnh Thanh Hóa",
+    "code": "38",
+    "post_office_location": [19.8079557, 105.7749416]
+  },
+  {
+    "name": "Thái Bình",
+    "slug": "thai-binh",
+    "type": 1,
+    "name_with_type": "Tỉnh Thái Bình",
+    "code": "34",
+    "post_office_location": [20.4458848, 106.3351365]
+  },
+  {
+    "name": "Thái Nguyên",
+    "slug": "thai-nguyen",
+    "type": 1,
+    "name_with_type": "Tỉnh Thái Nguyên",
+    "code": "19",
+    "post_office_location": [21.5938521, 105.8379869]
+  },
+  {
+    "name": "Thừa Thiên Huế",
+    "slug": "thua-thien-hue",
+    "type": 1,
+    "name_with_type": "Tỉnh Thừa Thiên Huế",
+    "code": "46",
+    "post_office_location": [16.4649679, 107.5882147]
+  },
+  {
+    "name": "Tiền Giang",
+    "slug": "tien-giang",
+    "type": 1,
+    "name_with_type": "Tỉnh Tiền Giang",
+    "code": "82",
+    "post_office_location": [10.3572883, 106.3593641]
+  },
+  {
+    "name": "Trà Vinh",
+    "slug": "tra-vinh",
+    "type": 1,
+    "name_with_type": "Tỉnh Trà Vinh",
+    "code": "84",
+    "post_office_location": [9.936293, 106.3379409]
+  },
+  {
+    "name": "Tuyên Quang",
+    "slug": "tuyen-quang",
+    "type": 1,
+    "name_with_type": "Tỉnh Tuyên Quang",
+    "code": "08",
+    "post_office_location": [21.8227473, 105.1962362]
+  },
+  {
+    "name": "Tây Ninh",
+    "slug": "tay-ninh",
+    "type": 1,
+    "name_with_type": "Tỉnh Tây Ninh",
+    "code": "72",
+    "post_office_location": [11.3138425, 106.0951262]
+  },
+  {
+    "name": "Vĩnh Long",
+    "slug": "vinh-long",
+    "type": 1,
+    "name_with_type": "Tỉnh Vĩnh Long",
+    "code": "86",
+    "post_office_location": [10.254896, 105.9706386]
+  },
+  {
+    "name": "Vĩnh Phúc",
+    "slug": "vinh-phuc",
+    "type": 1,
+    "name_with_type": "Tỉnh Vĩnh Phúc",
+    "code": "26",
+    "post_office_location": [21.3077015, 105.5914497]
+  },
+  {
+    "name": "Yên Bái",
+    "slug": "yen-bai",
+    "type": 1,
+    "name_with_type": "Tỉnh Yên Bái",
+    "code": "15",
+    "post_office_location": [21.7076992, 104.8820444]
+  }
+]

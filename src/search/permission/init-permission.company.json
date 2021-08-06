@@ -1,0 +1,457 @@
+[
+	{
+		"path_list": [
+			"/s_/product/company",
+			"/s_/product/v2/company",
+			"/s_/store/company",
+			"/s_/setting/company",
+			"/s_/notification/company",
+			"/s_/company-schedule/v2/company"
+		],
+		"_id": "5f64354597666a35572589d3",
+		"method": "GET",
+		"type": "typist",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/product/company",
+			"/s_/product/v2/company",
+			"/s_/notification/company"
+		],
+		"_id": "5f64354597666a35572589d4",
+		"method": "POST",
+		"type": "typist",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/product/company",
+			"/s_/product/v2/company"
+		],
+		"_id": "5f64354597666a35572589d5",
+		"method": "PUT",
+		"type": "typist",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/product/company",
+			"/s_/product/v2/company"
+		],
+		"_id": "5f64354597666a35572589d6",
+		"method": "DELETE",
+		"type": "typist",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/order/company",
+			"/s_/order/v2/company",
+			"/s_/order-caching/company",
+			"/s_/product-storing/company",
+			"/s_/product-storing/v2/company",
+			"/s_/store/company",
+			"/s_/setting/company",
+			"/s_/notification/company",
+			"/s_/promotion/owner",
+			"/s_/company-schedule/v2/company",
+			"/s_/product/company",
+			"/s_/product/v2/company"
+		],
+		"_id": "5f64354597666a35572589d7",
+		"method": "GET",
+		"type": "seller",
+		"__v": 3
+	},
+	{
+		"path_list": [
+			"/s_/order/company",
+			"/s_/order/v2/company",
+			"/s_/order-caching/company",
+			"/s_/notification/company"
+		],
+		"_id": "5f64354597666a35572589d8",
+		"method": "POST",
+		"type": "seller"
+	},
+	{
+		"path_list": [
+			"/s_/order/company",
+			"/s_/order/v2/company",
+			"/s_/order-caching/company"
+		],
+		"_id": "5f64354597666a35572589d9",
+		"method": "PUT",
+		"type": "seller",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/order/company",
+			"/s_/order/v2/company",
+			"/s_/order-caching/company"
+		],
+		"_id": "5f64354597666a35572589da",
+		"method": "DELETE",
+		"type": "seller",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/revenue/company",
+			"/s_/order/company",
+			"/s_/order/v2/company",
+			"/s_/order-caching/company",
+			"/s_/product-storing/company",
+			"/s_/product-storing/v2/company",
+			"/s_/store/company",
+			"/s_/setting/company",
+			"/s_/notification/company",
+			"/s_/deposit-withdraw/user",
+			"/s_/company-schedule/v2/company",
+			"/s_/product/company",
+			"/s_/product/v2/company"
+		],
+		"_id": "5f64354597666a35572589db",
+		"method": "GET",
+		"type": "cashier",
+		"__v": 5
+	},
+	{
+		"path_list": [
+			"/s_/order/company",
+			"/s_/order/v2/company",
+			"/s_/order-caching/company",
+			"/s_/notification/company"
+		],
+		"_id": "5f64354597666a35572589dc",
+		"method": "POST",
+		"type": "cashier",
+		"__v": 2
+	},
+	{
+		"path_list": [
+			"/s_/order/company",
+			"/s_/order/v2/company",
+			"/s_/order-caching/company"
+		],
+		"_id": "5f64354597666a35572589dd",
+		"method": "PUT",
+		"type": "cashier",
+		"__v": 2
+	},
+	{
+		"path_list": [
+			"/s_/order/company",
+			"/s_/order/v2/company",
+			"/s_/order-caching/company"
+		],
+		"_id": "5f64354597666a35572589de",
+		"method": "DELETE",
+		"type": "cashier",
+		"__v": 2
+	},
+	{
+		"path_list": [
+			"/s_/product-stock-history/company",
+			"/s_/goods-batch/company",
+			"/s_/company-schedule/v2/company",
+			"/s_/product-storing/company",
+			"/s_/product-storing/v2/company",
+			"/s_/product/company",
+			"/s_/product/v2/company",
+			"/s_/store/company",
+			"/s_/setting/company",
+			"/s_/notification/company",
+			"/s_/provider/company",
+			"/s_/product-stock-tracking/company",
+			"/s_/stock-checking-item/company",
+			"/s_/stock-checking/company"
+		],
+		"_id": "5f64354597666a35572589e2",
+		"method": "GET",
+		"type": "store_stock",
+		"__v": 6
+	},
+	{
+		"path_list": [
+			"/s_/product-storing/company",
+			"/s_/product-storing/v2/company",
+			"/s_/stock/company",
+			"/s_/goods-batch/company",
+			"/s_/product/company",
+			"/s_/product/v2/company",
+			"/s_/provider/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "5f64354597666a35572589e3",
+		"method": "POST",
+		"type": "store_stock",
+		"__v": 3
+	},
+	{
+		"path_list": [
+			"/s_/product-storing/company",
+			"/s_/product-storing/v2/company",
+			"/s_/goods-batch/company",
+			"/s_/provider/company",
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "5f64354597666a35572589e4",
+		"method": "PUT",
+		"type": "store_stock",
+		"__v": 2
+	},
+	{
+		"path_list": [
+			"/s_/product/company",
+			"/s_/product/v2/company",
+			"/s_/store/company",
+			"/s_/setting/company",
+			"/s_/notification/company",
+			"/s_/order/company",
+			"/s_/order/v2/company",
+			"/s_/product-storing/company",
+			"/s_/promotion/owner",
+			"/s_/revenue/company",
+			"/s_/product-stock-history/company",
+			"/s_/company-schedule/v2/company",
+			"/s_/deposit-withdraw/user",
+			"/s_/company/company",
+			"/s_/permission-group/owner",
+			"/s_/search/company",
+			"/s_/provider/company",
+			"/s_/company-schedule/company",
+			"/s_/product-stock-tracking/company",
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "5fc8bfe2da3d48649a3054a4",
+		"method": "GET",
+		"type": "store_manager",
+		"__v": 6
+	},
+	{
+		"path_list": [
+			"/s_/product-storing/company",
+			"/s_/product-storing/v2/company",
+			"/s_/company-schedule/company",
+			"/s_/company-schedule/v2/company",
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "5f7693bf190b2a2372f68097",
+		"method": "POST",
+		"type": "store_manager",
+		"__v": 3
+	},
+	{
+		"path_list": [
+			"/s_/warehouse-storing/company",
+			"/s_/goods-batch/company",
+			"/s_/provider/company",
+			"/s_/goods-batch/company-mall",
+			"/s_/stock-checking-item/company",
+			"/s_/stock-checking/company"
+		],
+		"_id": "6046f538d6565e617e4d665e",
+		"method": "PUT",
+		"type": "warehouse_stock",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/stock/company",
+			"/s_/goods-batch/company",
+			"/s_/provider/company",
+			"/s_/goods-batch/company-mall",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "6046f538d6565e617e4d665d",
+		"method": "POST",
+		"type": "warehouse_stock",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/company-schedule/company",
+			"/s_/company-schedule/v2/company",
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "606ad9cfe071c36a7b4fea47",
+		"method": "PUT",
+		"type": "store_manager",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/product-stock-history/company",
+			"/s_/goods-batch/company",
+			"/s_/warehouse/company",
+			"/s_/warehouse-storing/company",
+			"/s_/company-schedule/v2/company",
+			"/s_/stock-checking-item/company",
+			"/s_/stock-checking/company"
+		],
+		"_id": "5f7693bf190b2a2372f68090",
+		"method": "GET",
+		"type": "company_stock",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/stock/company",
+			"/s_/goods-batch/company"
+		],
+		"_id": "5f7693bf190b2a2372f68091",
+		"method": "POST",
+		"type": "company_stock",
+		"__v": 0
+	},
+	{
+		"path_list": [
+			"/s_/warehouse-storing/company",
+			"/s_/goods-batch/company"
+		],
+		"_id": "5f7693bf190b2a2372f68092",
+		"method": "PUT",
+		"type": "company_stock",
+		"__v": 0
+	},
+	{
+		"path_list": [
+			"/s_/product-stock-history/company",
+			"/s_/goods-batch/company",
+			"/s_/warehouse/company",
+			"/s_/warehouse-storing/company",
+			"/s_/company-schedule/v2/company",
+			"/s_/product-storing/company",
+			"/s_/product-storing/v2/company",
+			"/s_/product/company",
+			"/s_/product/v2/company",
+			"/s_/stock/company",
+			"/s_/store/company",
+			"/s_/setting/company",
+			"/s_/notification/company",
+			"/s_/provider/company",
+			"/s_/goods-batch/company-mall",
+			"/s_/product-stock-tracking/company",
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "6046f538d6565e617e4d665c",
+		"method": "GET",
+		"type": "warehouse_stock",
+		"__v": 7
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "606ad9cfe072c36a7b4fea47",
+		"method": "DELETE",
+		"type": "store_manager",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "606ad9cfe073c36a7b4fea47",
+		"method": "POST",
+		"type": "warehouse_manager",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "606ad9cfe075c36a7b4fea47",
+		"method": "PUT",
+		"type": "warehouse_manager",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "606ad9cfe076c36a7b4fea47",
+		"method": "DELETE",
+		"type": "warehouse_manager",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "606ad9cfe077c36a7b4fea47",
+		"method": "GET",
+		"type": "warehouse_manager",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking/company"
+		],
+		"_id": "606ad9cfe074c36a7b4fea47",
+		"method": "POST",
+		"type": "mall_manager",
+		"__v": 0
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking/company"
+		],
+		"_id": "606ad9cfe051c36a7b4fea47",
+		"method": "PUT",
+		"type": "mall_manager",
+		"__v": 0
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "606ad9cfe052c36a7b4fea47",
+		"method": "DELETE",
+		"type": "mall_manager",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "606ad9cfe053c36a7b4fea47",
+		"method": "GET",
+		"type": "mall_manager",
+		"__v": 1
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking/company",
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "5f64354597666a35572589e5",
+		"method": "DELETE",
+		"type": "store_stock",
+		"__v": 0
+	},
+	{
+		"path_list": [
+			"/s_/stock-checking-item/company"
+		],
+		"_id": "6046f538d6565e617e4d665f",
+		"method": "DELETE",
+		"type": "warehouse_stock",
+		"__v": 0
+	}
+]

@@ -1,0 +1,876 @@
+[
+  { "key": "new_user", "version": 1, "value": 1000, "name": "Điểm thành viên mới" },
+  { "key": "ref", "version": 1, "value": 100, "name": "Điểm giới thiệu" },
+  { "key": "post_video", "version": 1, "value": 20, "name": "Điểm đăng bài" },
+  { "key": "view", "version": 1, "value": 1, "name": "Điểm xem" },
+  { "key": "max_ref", "version": 1, "value": "AAAAAA", "name": "ID" },
+  {
+    "key": "deposit",
+    "version": 1,
+    "value": [
+      { "value": 100000, "refund": 0 },
+      { "value": 200000, "refund": 0 },
+      { "value": 500000, "refund": 0 },
+      { "value": 1000000, "refund": 0 },
+      { "value": 2000000, "refund": 0 },
+      { "value": 5000000, "refund": 0 }
+    ],
+    "name": "Mức nạp và hoàn tiền"
+  },
+  {
+    "key": "deposit_company",
+    "version": 1,
+    "value": [
+      { "value": 500000, "refund": 0 },
+      { "value": 1000000, "refund": 0 },
+      { "value": 200000, "refund": 0 },
+      { "value": 500000, "refund": 0 },
+      { "value": 10000000, "refund": 0 },
+      { "value": 20000000, "refund": 0 },
+      { "value": 50000000, "refund": 0 }
+    ],
+    "name": "Mức nạp tiền doanh nghiệp"
+  },
+  {
+    "key": "withdraw_company",
+    "version": 1,
+    "value": [
+      { "value": 500000, "refund": 0 },
+      { "value": 1000000, "refund": 0 },
+      { "value": 2000000, "refund": 0 },
+      { "value": 5000000, "refund": 0 },
+      { "value": 10000000, "refund": 0 },
+      { "value": 20000000, "refund": 0 }
+    ],
+    "name": "Mức rút tiền doanh nghiệp",
+    "fee": 3000,
+    "min": 500000,
+    "max_per_day": 50e6
+  },
+  {
+    "key": "withdraw",
+    "version": 1,
+    "value": [
+      { "value": 100000, "refund": 0 },
+      { "value": 200000, "refund": 0 },
+      { "value": 500000, "refund": 0 },
+      { "value": 1000000, "refund": 0 },
+      { "value": 1500000, "refund": 0 },
+      { "value": 2000000, "refund": 0 }
+    ],
+    "name": "Mức rút tiền",
+    "min": 100000,
+    "fee": 3000,
+    "max_per_day": 5000000
+  },
+  {
+    "key": "banks",
+    "version": 1,
+    "value": [
+      { "name": "Vietcombank", "image_path": "public/images/banks/vietcom.png" },
+      { "name": "Techcombank", "image_path": "public/images/banks/techcom.png" },
+      { "name": "Sacombank", "image_path": "public/images/banks/sacombank.png" },
+      { "name": "VPBank", "image_path": "public/images/banks/vpbank.jpg" },
+      { "name": "ACB", "image_path": "public/images/banks/acb.png" },
+      { "name": "TPBank", "image_path": "public/images/banks/tpbank.png" },
+      { "name": "VietinBank", "image_path": "public/images/banks/vietinbank.png" },
+      { "name": "BIDV", "image_path": "public/images/banks/BIDV.png" },
+      { "name": "SHB", "image_path": "public/images/banks/shb.jpg" },
+      { "name": "MBBank", "image_path": "public/images/banks/mb.png" },
+      { "name": "Agribank", "image_path": "public/images/banks/agribank.png" },
+      { "name": "HDBank", "image_path": "public/images/banks/hdbank.png" }
+    ],
+    "name": "Ngân hàng"
+  },
+  {
+    "key": "company_limit",
+    "version": 2,
+    "name": "Hạn mức doanh nghiệp",
+    "value": [
+      {
+        "level": 1,
+        "product_refund": 20e3,
+        "total_refund": 200e3,
+        "balance": 1e6,
+        "max_withdrawal": 2e6,
+        "negative_balance": 100e3
+      },
+      {
+        "level": 2,
+        "product_refund": 50e3,
+        "total_refund": 500e3,
+        "balance": 3e6,
+        "max_withdrawal": 6e6,
+        "negative_balance": 100e3
+      },
+      {
+        "level": 3,
+        "product_refund": 100e3,
+        "total_refund": 1e6,
+        "balance": 5e6,
+        "max_withdrawal": 10e6,
+        "negative_balance": 100e3
+      },
+      {
+        "level": 4,
+        "product_refund": 200e3,
+        "total_refund": 1e6,
+        "balance": 10e6,
+        "max_withdrawal": 20e6,
+        "negative_balance": 100e3
+      },
+      {
+        "level": 5,
+        "product_refund": 500e3,
+        "total_refund": 5e6,
+        "balance": 20e6,
+        "max_withdrawal": 40e6,
+        "negative_balance": 100e3
+      },
+      {
+        "level": 6,
+        "product_refund": 1e6,
+        "total_refund": 10e6,
+        "balance": 50e6,
+        "max_withdrawal": 100e6,
+        "negative_balance": 100e3
+      },
+      {
+        "level": 7,
+        "product_refund": 2e6,
+        "total_refund": 20e6,
+        "balance": 100e6,
+        "max_withdrawal": 100e6,
+        "negative_balance": 100e3
+      },
+      {
+        "level": 8,
+        "product_refund": 5e6,
+        "total_refund": 50e6,
+        "balance": 250e6,
+        "max_withdrawal": 100e6,
+        "negative_balance": 100e3
+      }
+    ]
+  },
+  {
+    "key": "banner",
+    "version": 1,
+    "name": "Cấu hình banner",
+    "value": {
+      "max_hours": 72,
+      "pending_hours": 1,
+      "banner_fee": [
+        { "position": 1, "fee": 20e3 },
+        { "position": 2, "fee": 17e3 },
+        { "position": 3, "fee": 15e3 },
+        { "position": 4, "fee": 12e3 },
+        { "position": 5, "fee": 10e3 }
+      ]
+    }
+  },
+  {
+    "key": "maximum_canceled_order",
+    "version": 1,
+    "name": "Lượt hủy đơn hàng /d",
+    "value": {
+      "paid_oder": 1,
+      "unpaid_oder": 3
+    }
+  },
+  {
+    "key": "commission_rate",
+    "version": 1,
+    "name": "Tỉ lệ nhận hoa hồng",
+    "value": 0.1
+  },
+  {
+    "key": "transfer",
+    "version": 1,
+    "value": [{ "value": 100000, "refund": 0 }],
+    "name": "Chuyển tiền",
+    "fee": 0,
+    "min": 100000,
+    "max_per_day": 2e6
+  },
+  {
+    "key": "user_level",
+    "version": 1,
+    "name": "Cấp thành viên",
+    "value": [
+      { "level": "silver", "total_deposit": 5e5, "refund_rate": 1 },
+      { "level": "gold", "total_deposit": 1e6, "refund_rate": 1 },
+      { "level": "platinum", "total_deposit": 2e6, "refund_rate": 1 },
+      { "level": "diamond", "total_deposit": 5e6, "refund_rate": 1 }
+    ]
+  },
+  {
+    "key": "logistics_providers",
+    "version": 1,
+    "name": "Đơn vị cung cấp dịch vụ vận chuyển",
+    "value": [
+      {
+        "provider": "ghn",
+        "display_name": "Giao hàng nhanh",
+        "logo": "public/images/logistics/ghn.png"
+      }
+    ]
+  },
+  {
+    "key": "lucky_shopping_hours",
+    "version": 1,
+    "name": "LuckyShopping game hours",
+    "value": {
+      "sale_start_hour": 11,
+      "sale_end_hour": 23
+    }
+  },
+  {
+    "key": "bill_electric",
+    "version": 3,
+    "name": "Thanh toán hoá đơn điện",
+    "value": {
+      "publishers": [
+        {
+          "name": "EVN",
+          "display_name": "Điện lực Hà Nội",
+          "logo": "public/images/electric/evn-hn.jpeg",
+          "description": "Tất cả quận/huyện Hà Nội",
+          "is_active": true
+        },
+        {
+          "name": "EVNHCM",
+          "display_name": "Điện lực Hồ Chí Minh",
+          "logo": "public/images/electric/evn-hcm.jpeg",
+          "description": "Tất cả quận/huyện Tp. HCM",
+          "is_active": true
+        },
+        {
+          "name": "EVNNPC",
+          "display_name": "Điện lực Miền Bắc",
+          "logo": "public/images/electric/evn-mb.png",
+          "description": "Các tỉnh/thành phố miền Bắc",
+          "is_active": true
+        },
+        {
+          "name": "EVNCPC",
+          "display_name": "Điện lực Miền Trung",
+          "logo": "public/images/electric/evn-mt.jpeg",
+          "description": "Các tỉnh/thành phố miền Trung",
+          "is_active": true
+        },
+        {
+          "name": "EVNSPC",
+          "display_name": "Điện lực Miền Nam",
+          "logo": "public/images/electric/evn-mn.jpeg",
+          "description": "Các tỉnh/thành phố miền Nam",
+          "is_active": true
+        }
+      ]
+    }
+  },
+  {
+    "key": "topup",
+    "name": "Thanh toán nạp thẻ",
+    "version": 4,
+    "value": {
+      "publishers": [
+        {
+          "name": "VTT",
+          "display_name": "Viettel",
+          "image_path": "public/images/telecom_provider/viettel.png",
+          "is_active": true
+        },
+        {
+          "name": "VNM",
+          "display_name": "Vietnamobile",
+          "image_path": "public/images/telecom_provider/vietnamobile.png",
+          "is_active": true
+        },
+        {
+          "name": "VNP",
+          "display_name": "VinaPhone",
+          "image_path": "public/images/telecom_provider/vinaphone.png",
+          "is_active": true
+        },
+        {
+          "name": "VMS",
+          "display_name": "MobiFone",
+          "image_path": "public/images/telecom_provider/mobifone.png",
+          "is_active": true
+        },
+        {
+          "name": "GMB",
+          "display_name": "Gmobile",
+          "image_path": "public/images/telecom_provider/gmobile.jpg",
+          "is_active": true
+        }
+      ],
+      "amounts": [
+        {
+          "amounts": 20000,
+          "is_active": true,
+          "publishers_status": {
+            "VTT": true,
+            "VNM": true,
+            "VNP": true,
+            "VMS": true,
+            "GMB": true
+          }
+        },
+        {
+          "amounts": 30000,
+          "is_active": true,
+          "publishers_status": {
+            "VTT": true,
+            "VNM": true,
+            "VNP": true,
+            "VMS": true,
+            "GMB": true
+          }
+        },
+        {
+          "amounts": 50000,
+          "is_active": true,
+          "publishers_status": {
+            "VTT": true,
+            "VNM": true,
+            "VNP": true,
+            "VMS": true,
+            "GMB": true
+          }
+        },
+        {
+          "amounts": 100000,
+          "is_active": true,
+          "publishers_status": {
+            "VTT": true,
+            "VNM": true,
+            "VNP": true,
+            "VMS": true,
+            "GMB": true
+          }
+        },
+        {
+          "amounts": 200000,
+          "is_active": true,
+          "publishers_status": {
+            "VTT": true,
+            "VNM": true,
+            "VNP": true,
+            "VMS": true,
+            "GMB": true
+          }
+        },
+        {
+          "amounts": 300000,
+          "is_active": true,
+          "publishers_status": {
+            "VTT": true,
+            "VNM": true,
+            "VNP": true,
+            "VMS": true,
+            "GMB": true
+          }
+        },
+        {
+          "amounts": 500000,
+          "is_active": true,
+          "publishers_status": {
+            "VTT": true,
+            "VNM": true,
+            "VNP": true,
+            "VMS": true,
+            "GMB": true
+          }
+        }
+      ],
+      "combos": [
+        { "name": "three_month", "display_name": "3 tháng", "months": 3, "is_active": true },
+        { "name": "six_month", "display_name": "6 tháng", "months": 6, "is_active": true },
+        { "name": "twelve_month", "display_name": "12 tháng", "months": 12, "is_active": true }
+      ],
+      "refund_rate": {
+        "fast": {
+          "basic": {
+            "VTT": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNP": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VMS": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNM": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "GMB": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            }
+          },
+          "three_month": {
+            "VTT": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNP": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VMS": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNM": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "GMB": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            }
+          },
+          "six_month": {
+            "VTT": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNP": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VMS": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNM": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "GMB": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            }
+          },
+          "twelve_month": {
+            "VTT": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNP": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VMS": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNM": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "GMB": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            }
+          }
+        },
+        "slow": {
+          "basic": {
+            "VTT": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNP": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VMS": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNM": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "GMB": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            }
+          },
+          "three_month": {
+            "VTT": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNP": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VMS": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNM": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "GMB": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            }
+          },
+          "six_month": {
+            "VTT": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNP": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VMS": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNM": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "GMB": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            }
+          },
+          "twelve_month": {
+            "VTT": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNP": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VMS": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "VNM": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            },
+            "GMB": {
+              "20000": 0.01,
+              "30000": 0.01,
+              "50000": 0.02,
+              "100000": 0.02,
+              "200000": 0.03,
+              "300000": 0.05,
+              "500000": 0.1
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "key": "bill_water",
+    "version": 1,
+    "name": "Thanh toán hoá đơn nước",
+    "value": {
+      "payment_fee": 2000,
+      "publishers": [
+        { "is_active": false, "name": "QNA", "display_name": "Cty nước Quảng Nam" },
+        { "is_active": true, "name": "HCMTA", "display_name": "Cty nước Trung An – TP.HCM" },
+        { "is_active": true, "name": "HCMCLO", "display_name": "Cty nước Chợ Lớn – TP.HCM" },
+        { "is_active": true, "name": "HCMNT", "display_name": "Cty nước Nông thôn – TP.HCM" },
+        { "is_active": false, "name": "VP", "display_name": "Cty nước Vĩnh Phúc" },
+        { "is_active": true, "name": "NBE", "display_name": "Cty nước Nhà Bè" },
+        { "is_active": true, "name": "BRVT", "display_name": "Cty nước Bà Rịa - Vũng Tàu" },
+        { "is_active": true, "name": "DNI", "display_name": "Cty nước Đồng Nai" },
+        { "is_active": true, "name": "DNINT", "display_name": "Cty nước Nhơn Trạch – Đồng Nai" },
+        { "is_active": true, "name": "BDU", "display_name": "Cty nước Bình Dương" },
+        { "is_active": true, "name": "CTO", "display_name": "Cty nước Cần Thơ" },
+        { "is_active": false, "name": "HCM", "display_name": "Cty nước TP Hồ Chí Minh" },
+        { "is_active": true, "name": "HCMBT", "display_name": "Cty nước Bến Thành – TP.HCM" },
+        { "is_active": true, "name": "CTO2", "display_name": "Cty nước Cần Thơ 2" },
+        { "is_active": true, "name": "CB", "display_name": "Cty nước Cao Bằng" },
+        { "is_active": true, "name": "DNA", "display_name": "Cty nước Đà Nẵng" },
+        { "is_active": true, "name": "DT", "display_name": "Cty nước Đồng Tháp" },
+        { "is_active": true, "name": "HCMGD", "display_name": "Cty nước Gia Định" },
+        { "is_active": true, "name": "HNA", "display_name": "Cty nước Hà Nam" },
+        { "is_active": true, "name": "HP", "display_name": "Cty nước Hải Phòng" },
+        { "is_active": true, "name": "HUE", "display_name": "Cty nước Huế" },
+        { "is_active": true, "name": "DNILK", "display_name": "Cty nước Long Khánh – Đồng Nai" },
+        { "is_active": true, "name": "HCMPHT", "display_name": "Cty nước Phú Hòa Tân – TP.HCM" },
+        { "is_active": true, "name": "BRVTPM", "display_name": "Cty nước Phú Mỹ - BRVT" },
+        { "is_active": true, "name": "HP2", "display_name": "Cty nước số 2 Hải Phòng" },
+        { "is_active": true, "name": "SL", "display_name": "Cty nước Sơn La" },
+        { "is_active": true, "name": "HCMTH", "display_name": "Cty nước Tân Hòa – TP.HCM" },
+        { "is_active": true, "name": "HCMTD", "display_name": "Cty nước Thủ Đức – TP.HCM" },
+        { "is_active": true, "name": "VIWACO", "display_name": "Cty CP Viwaco" },
+        { "is_active": true, "name": "DNIDVXD", "display_name": "Cty DVXD cấp nước Đồng Nai" },
+        { "is_active": true, "name": "HN3", "display_name": "Cty nước số 3 Hà Nội" }
+      ]
+    }
+  },
+  {
+    "key": "bill_finance",
+    "version": 1,
+    "name": "Thanh toán hoá đơn tài chính",
+    "value": {
+      "publishers": [
+        { "is_active": true, "name": "MCR", "display_name": "Mcredit" },
+        { "is_active": true, "name": "ACS", "display_name": "ACS", "payment_fee": 11000 },
+        { "is_active": true, "name": "MRA", "display_name": "Mirae Asset" },
+        { "is_active": true, "name": "HCR", "display_name": "Home Credit" },
+        { "is_active": true, "name": "FECR", "display_name": "FE Credit" },
+        { "is_active": true, "name": "OCB", "display_name": "Ngân hàng Phương Đông" },
+        { "is_active": true, "name": "Intergration", "display_name": "Document" },
+        { "is_active": true, "name": "MSB", "display_name": "Ngân hàng Hàng Hải" },
+        { "is_active": true, "name": "PRU", "display_name": "Prudential" },
+        { "is_active": true, "name": "DTD", "display_name": "DoctorDong" }
+      ]
+    }
+  },
+  {
+    "key": "db_version",
+    "version": 5,
+    "name": "DB-version",
+    "value": 1
+  },
+  {
+    "key": "payment_gateway",
+    "name": "Cổng thanh toán",
+    "version": 1,
+    "value": [
+      {
+        "is_active": true,
+        "name": "VNPAY",
+        "display_name": "VnPay",
+        "deposit": false,
+        "pay_cart": false,
+        "pay_order_offline": false,
+        "passive_pay_order_offline": false
+      },
+      {
+        "is_active": true,
+        "name": "ALEPAY",
+        "display_name": "AlePay",
+        "deposit": false,
+        "pay_cart": false,
+        "pay_order_offline": false,
+        "passive_pay_order_offline": false
+      }
+    ]
+  },
+  {
+    "key": "app_version",
+    "name": "app version",
+    "version": 1,
+    "value": {
+      "enterprise_web": "2.5.5"
+    }
+  }
+]

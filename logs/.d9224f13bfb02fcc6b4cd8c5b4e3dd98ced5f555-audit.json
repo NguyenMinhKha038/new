@@ -1,0 +1,34 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "logs/.d9224f13bfb02fcc6b4cd8c5b4e3dd98ced5f555-audit.json",
+    "files": [
+        {
+            "date": 1627867077997,
+            "name": "logs/sumviet-api-2021-08-02.log",
+            "hash": "45fa3afeb9fb0950ee7e45522892d9d5"
+        },
+        {
+            "date": 1627983044030,
+            "name": "logs/sumviet-api-2021-08-03.log",
+            "hash": "d57d53e80538458336d7fc6d2b8e84c6"
+        },
+        {
+            "date": 1628010000014,
+            "name": "logs/sumviet-api-2021-08-04.log",
+            "hash": "f33ce52f77bef5639c8ef32b407a57d7"
+        },
+        {
+            "date": 1628145045798,
+            "name": "logs/sumviet-api-2021-08-05.log",
+            "hash": "24211f4efba0483a8e2b86aa75cb3c18"
+        },
+        {
+            "date": 1628270085456,
+            "name": "logs/sumviet-api-2021-08-07.log",
+            "hash": "d21ac6aa706202d62c6de29f1e260b4e"
+        }
+    ]
+}

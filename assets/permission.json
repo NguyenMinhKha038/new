@@ -1,0 +1,58 @@
+[
+    {
+        "path": "/user/admin",
+        "description": "Người dùng"
+    },
+    {
+        "path": "/permission-group",
+        "description": "Nhóm quyền"
+    },
+    {
+        "path": "/s_/comment/admin",
+        "description": "Bình luận"
+    },
+    {
+        "path": "/s_/setting/admin",
+        "description": "Cài đặt"
+    },
+    {
+        "path": "/s_/mobile-card/admin",
+        "description": "Card điện thoại"
+    },
+    {
+        "path": "/s_/store/admin",
+        "description": "Cửa hàng"
+    },
+    {
+        "path": "/s_/transfer/admin",
+        "description": "Chuyển tiền"
+    },
+    {
+        "path": "/s_/category/admin",
+        "description": "Danh mục"
+    },
+    {
+        "path": "/s_/company/admin",
+        "description": "Doanh nghiệp"
+    },
+    {
+        "path": "/s_/revenue/admin",
+        "description": "Doanh thu"
+    },
+    {
+        "path": "/s_/order/admin",
+        "description": "Đơn hàng"
+    },
+    {
+        "path": "/s_/banner/admin",
+        "description": "Quảng cáo"
+    },
+    {
+        "path": "/s_/deposit-withdraw/admin",
+        "description": "Rút tiền - Nạp tiền"
+    },
+    {
+        "path": "/s_/product/admin",
+        "description": "Sản phẩm"
+    }
+]
